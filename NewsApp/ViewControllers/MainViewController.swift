@@ -23,7 +23,7 @@ class MainViewController: UIViewController {
     var selectedCategory = "All"
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print(" ")
         // Do any additional setup after loading the view.
         self.categoryCollectionView.delegate = self
         self.categoryCollectionView.dataSource = self
